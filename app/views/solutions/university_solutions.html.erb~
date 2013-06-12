@@ -1,0 +1,73 @@
+    <div id="highlighted">
+      <div class="container">
+        <div class="row-fluid header">
+          <h2 class="page-title"><span>Solutions</span></h2>
+	<%= link_to "Back to Solutions", {:controller => "solutions", :actions => "egov"}, :class => "btn btn-mini back-link" %> 
+        </div>
+      </div>
+    </div>
+        
+      
+    <div id="content">
+      <div class="container portfolio">        
+        
+        <!--Solution feature item-->
+        <div class="row">
+          <div class="span7 project-photos">
+            <!-- Slider for project pictures -->
+            <div id="carousel-project" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="item active">
+		<%= image_tag "public/education/univ_erp_800x600.png" %>		 
+            
+                  <div class="carousel-caption">
+                    <p>e-Governance Hierarchy</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <%= image_tag "index/slides/slide7.jpg" %>
+                  <div class="carousel-caption">
+                    <h4>e-Governance Solutions</h4>
+                    <p>End to End Integration Solutions</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <%= image_tag "index/slides/egovernance/slide10.jpg" %>
+                  <div class="carousel-caption">
+                    <p>A little bit of green.</p>
+                  </div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#carousel-project" data-slide="prev">&lsaquo;</a>
+              <a class="right carousel-control" href="#carousel-project" data-slide="next">&rsaquo;</a>
+            </div>
+          </div> 
+         
+          <div class="span5 sidebar sidebar-right">
+            <!-- quick details -->
+            <div class="block">
+              <h3 class="block-title"><span>University Automation and Certificate Authentication Solutions.</span></h3>
+              <dl>
+                <dt>Project Type</dt>
+                <dd>End to End ERP Management and Certificate Authentication Solutions for University, Colleges and Schools.</dd>
+                <dt>Client</dt>
+                <dd>Universities, Colleges, Government Institutions and Schools</dd>
+                <dt>Services Provided</dt>
+                <dd>University Management Software, ERP Solution for schools and Tamper Proof Certificate Authentication Solution </dd>
+                <dt>Project Description</dt>
+                <dd></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        
+   
+      </div>
+    </div>
+    
+
+      
+  
+    
+  </body>
+</html>

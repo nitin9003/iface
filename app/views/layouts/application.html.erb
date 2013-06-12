@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>IFaceGlobal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta name="description" content="">
+<meta name="author" content="ifaceglobal.com">
+
+<%= stylesheet_link_tag    "application", :media => "all" %>
+<%= javascript_include_tag "application" %>
+<%= csrf_meta_tags %>
+
+<!-- Bootstrap CSS -->
+<%= stylesheet_link_tag "index/bootstrap.css" %>
+<%= stylesheet_link_tag "index/responsive.css" %>
+<!-- Bootstrap CSS -->
+
+<!-- animate.css CSS -->
+<%= stylesheet_link_tag "index/animate.css" %>
+<!-- animate.css CSS -->
+
+<!-- Flexslider -->
+<%= stylesheet_link_tag "index/flexslider.css" %>
+<!-- Flexslider -->
+
+<!-- Theme style -->
+<%= stylesheet_link_tag "index/theme-style.css" %>
+<!-- Theme style -->
+
+<%= stylesheet_link_tag "index/colour-blue.css", :id => "colour-scheme" %>
+
+
+<!-- Your custom override -->
+<%= stylesheet_link_tag "index/custom-style.css" %>
+<!-- Your custom override -->
+
+    
+    <!-- For third-generation iPad with high-resolution Retina display: -->
+    <!-- Size should be 144 x 144 pixels -->
+    <%= favicon_link_tag 'images/apple-touch-icon-144x144-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '144x144' %>
+
+    <!-- For iPhone with high-resolution Retina display: -->
+    <!-- Size should be 114 x 114 pixels -->
+    <%= favicon_link_tag 'images/apple-touch-icon-114x114-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '114x114' %>
+
+    <!-- For first- and second-generation iPad: -->
+    <!-- Size should be 72 x 72 pixels -->
+    <%= favicon_link_tag 'images/apple-touch-icon-72x72-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '72x72' %>
+
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <!-- Size should be 57 x 57 pixels -->
+    <%= favicon_link_tag 'images/apple-touch-icon-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png' %>
+
+    <!-- For all other devices -->
+    <!-- Size should be 32 x 32 pixels -->
+    <%= favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
+</head>
+
+
+<body class="has-navbar-fixed-top page-index">
+<div id="navigation" class="wrapper">
+  <div class="navbar navbar-fixed-top" id="top">
+    <div class="navbar-inner">
+      <div class="inner">
+        <div class="container"><a class="brand" href="public#index" title="Home">
+	<h1>IFaceGlobal</h1> <span>Solutions that interface the world</span> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+	<div class="nav-collapse collapse">
+	    <ul class="nav pull-right" id="main-menu">
+		<li><%= link_to "solutions", solutions_path %></li>
+		<li><%= link_to "products", products_path %></li>            	
+		<li><%= link_to "about", about_index_path %></li>
+             	<li><%= link_to "blog", blog_index_path %></li>
+             	<li><%= link_to "contact", contacts_path %></li>
+            </ul>
+      
+          </div>
+          <!--/.nav-collapse --> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= yield %>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="inner">
+    <div class="container">
+      <div class="row">
+        <div class="span6 col blog-list blog-list-short">
+          <h3>Latest from our Blog</h3>
+          <!-- Short blog post -->
+          <div class="media row">
+            <div class="media-body span6"> 
+              <!-- Meta details -->
+              <ul class="inline meta">
+                <li><i class="icon-calendar"></i> <span class="visible-desktop">Created:</span> Sat 12th Jan 2013</li>
+                <li><i class="icon-user"></i> <span class="visible-desktop">By</span> <a href="http://themelize.me/demos/enkel/team-member.htm">Nitin Agarwak</a></li>
+              </ul>
+	<h5><%= link_to "Healthcare Asset Tracking and Management Solution", hospital_asset_tracking_solution_blog_index_path, {:class => "title media-heading"} %></h5>
+            </div>
+          </div>
+          
+          <!-- Short blog post -->
+          <div class="media row">
+            <div class="media-body span6"> 
+              <!-- Meta details -->
+              <ul class="inline meta">
+                <li><i class="icon-calendar"></i> <span class="visible-desktop">Created:</span> Sat 1st June 2013</li>
+                <li><i class="icon-user"></i> <span class="visible-desktop">By</span> <a href="http://themelize.me/demos/enkel/team-member.htm">Nitin Agarwal</a></li>
+              </ul>
+              <h5><%= link_to "Smart File Solution", smart_file_solution_blog_index_path, {:class => "title media-heading"} %></h5>
+            </div>
+          </div>
+        </div>
+        <div class="span4 col contact-block"> 
+          <!--@todo: replace with company contact details-->
+          <h3>Contact Us!</h3>
+          <address>
+          <p><strong>IFaceGlobal.com</strong></p>
+          <p><abbr title="Phone">P</abbr>: +91 9999955555</p>
+          <p><abbr title="Fax">F</abbr>: +91 9999955555</p>
+          <p><abbr title="Email">E</abbr>: info@ifaceglobal.com</p>
+          <p><abbr title="Address">A</abbr>: 38, North American Road, NewYork City, 12345.</p>
+          </address>
+        </div>
+        <div class="span2 col social-media"> 
+          <!--@todo: replace with company social media details-->
+          <h3>Follow us on</h3>
+          <a href="#"><i class="icon-twitter"></i> Twitter</a> <a href="#"><i class="icon-facebook"></i> Facebook</a> <a href="#"><i class="icon-linkedin"></i> LinkedIn</a> <a href="#"><i class="icon-google-plus"></i> Google +</a> </div>
+      </div>
+      <div class="row"> 
+        <!--@todo: replace with company copyright details-->
+        <div class="subfooter">
+          <div class="span12">
+            <p><a href="http://ifaceglobal.com/">ifaceglobal.com</a> | Copyright 2013 &copy; IFaceGlobal.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--Scripts -->
+<%= javascript_include_tag "index/jquery.js" %>
+
+<!-- @todo: remove unused Javascript for better performance --> 
+<%= javascript_include_tag "index/bootstrap-transition.js" %>
+<%= javascript_include_tag "index/bootstrap-affix.js" %>
+<%= javascript_include_tag "index/bootstrap-alert.js" %>
+<%= javascript_include_tag "index/bootstrap-modal.js" %>
+<%= javascript_include_tag "index/bootstrap-dropdown.js" %>
+<%= javascript_include_tag "index/bootstrap-scrollspy.js" %>
+<%= javascript_include_tag "index/bootstrap-tab.js" %>
+<%= javascript_include_tag "index/bootstrap-tooltip.js" %>
+<%= javascript_include_tag "index/bootstrap-popover.js" %>
+<%= javascript_include_tag "index/bootstrap-button.js" %>
+<%= javascript_include_tag "index/bootstrap-collapse.js" %>
+<%= javascript_include_tag "index/bootstrap-carousel.js" %>
+<%= javascript_include_tag "index/bootstrap-typeahead.js" %>
+
+
+<!--Non-Bootstrap JS--> 
+<%= javascript_include_tag "index/jquery.quicksand.js" %>
+<%= javascript_include_tag "index/jquery.flexslider-min.js" %>
+
+
+<!--Custom scripts mainly used to trigger libraries --> 
+<%= javascript_include_tag "index/script.js" %>
+</body>
+
+</body>
+</html>

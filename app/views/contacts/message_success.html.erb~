@@ -1,0 +1,40 @@
+ 
+    <div id="highlighted">
+      <div class="container">
+        <div class="row-fluid header">
+          <h2 class="page-title"><span>Contact</span> <small>No project too big or small, get in touch!</small></h2>
+        </div>
+      </div>
+    </div> 
+        
+      
+    <div id="content">
+      <div class="container">
+        
+        <div class="row block">
+          <div class="span6">
+
+		    <div class="alert alert-success">
+    			<p>"Your Query has been logged with us!! We will contact you shortly."</p>
+    		    </div>
+
+          </div>
+          <div class="span6">
+            <h3 class="block-title sub-title"><span>Other Ways To Get In Touch</span></h3>
+            <p><abbr title="Phone">P</abbr>: +91 9919189444</p>
+            <p><abbr title="Fax">F</abbr>: +91 9919189444</p>
+            <p><abbr title="Email">E</abbr>: info@ifaceglobal.com</p>
+            <p><abbr title="Address">A</abbr>: Sunshine House, Sunny Road, Sunville. SUN12 8LU.</p>
+            <a href="https://maps.google.co.uk/maps?q=London&ie=UTF8&hq=&hnear=London%2C+United+Kingdom&gl=uk&t=m&ll=51.510238%2C-0.127029&spn=0.042735%2C0.102654&z=12&">
+	<%= image_tag "contacts/map.png", :class => "img-polaroid" %>
+              
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+
+  </body>
+</html>

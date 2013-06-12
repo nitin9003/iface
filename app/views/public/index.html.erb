@@ -1,0 +1,86 @@
+<div id="highlighted">
+  <div class="inner"> 
+    <!--
+        Flexslider
+        - May use standard Bootstrap markup within slides
+        - For best results use images all the same size (in this example they are 600px x 400px)
+        --> 
+    <!--Flexslider Showshow-->
+    <section class="flexslider-wrapper container">
+      <div class="flexslider" data-slidernav="auto" data-transition="slide"> 
+        <!--The Slides-->
+        <div class="slides"> 
+          
+          <!--Slide #1 with caption-->
+          <div class="slide row-fluid">
+	    <div class="span6"><%= image_tag "public/egovernance/e-gov1.png", :class => "animated fadeInDownBig" %></div> 
+            <div class="span6 caption animated fadeInUpBig">
+              <h2>System Integration Solutions For E-Governance Projects</h2>
+              <p>IFaceGlobal Solutions, head-quartered in Gurgaon, spcializes in e-governance product development and implementation of end-to-end e-governance product based solutions at various levels of government organizations.  <small><%= link_to "Read More", solutions_path %></small></p>
+              <a href="https://wrapbootstrap.com/user/themelize_me" class="btn btn-large btn-primary">Send Query</a> </div>
+          </div>
+          
+          <!--Slide #2 with caption-->
+          <div class="slide row-fluid">
+	    <div class="span6"><%= image_tag "public/agri/smart_agri.png" %></div> 
+            <div class="span6 caption">
+              <h2>Smart Agriculture Solutions</h2>							    	          <p>We provide smart Agri solutions for Weather Monitoring, Nutrient Management, Plant Health, Soil and Water Monitoring Solutions.  <small><%= link_to "Read More", solutions_path %></small></p>
+	      <h2>Smart Environment Solutions<h2>
+              <h4> <i class="icon-ok"></i>Forest Fire Detection<br />
+                <i class="icon-ok"></i>Air Pollution Control<br />
+                <i class="icon-ok"></i>Avalanche and Land Slide Prevention<br />
+		<i class="icon-ok"></i>Early Earthquake Detection</h4>
+              <a href="https://wrapbootstrap.com/user/themelize_me" class="btn btn-large btn-primary">Send Query</a> </div>
+          </div>
+          
+          <!--Slide #3 & so on below-->
+          <div class="slide row-fluid">
+            <div class="span6"><%= image_tag "public/tracking/inventory_tracking.png" %></div>
+            <div class="span6 caption">
+              <h2>Asset Tracking, People Tracking, Inventory Management and Document Management Solutions</h2>
+              <h4>We provide smart solutions for asset tracking whether it be Industry , Hospital or a Government Setup. </h4>
+              <a href="https://wrapbootstrap.com/user/themelize_me" class="btn btn-large btn-primary">Send Query</a> </div>
+          </div>
+        </div>
+      </div>
+
+	
+    </section>
+  </div>
+</div>
+<div id="content">
+  <div class="container"> 
+    <!-- Mission statement -->
+    <div class="row-fluid mission">
+      <div class="inner">
+        <h3>We provide <span>smart integration solutions</span> built around cutting edge technologies <small><%= link_to "Find out more", solutions_path %></small></h3>
+      </div>
+    </div>
+    
+    <!-- Solutions -->
+    <div class="block services margin-top-large">
+      <h2 class="block-title"><span>Our Solutions</span> <small><%= link_to "View All", solutions_path %></small></h2>
+      <ul class="thumbnails">
+        <li class="span3">
+          <h3 class="title"><a href= "solutions">Tracking and Inventory Management</a></h3>
+          <p>Asset Tracking, Employee Tracking, Student Tracking, Inventory Management and Document Management Solutions. For more details please visit our blog page. <small><%= link_to "Read More", blog_index_path %></small></p>
+        </li>
+        <li class="span3">
+          <h3 class="title"><a href="solutions">Smart Agriculture and Smart Environment Solutions</a></h3>
+          <p>We provide Smart Agri solutions for Weather Monitoring, Nutrient Management, Plant Health, Soil and Water Monitoring Solutions. For more details and case studies please visit our blog page. <small><%= link_to "Read More", blog_index_path %></small></p>
+        </li>
+        <li class="span3">
+          <h3 class="title"><a href="solutions">e-Governance System Integration and Solutioning</a></h3>
+          <p>We, at IFace believe that e-governance is about understanding the government domain, bringing about a cultural change and using technology as an enabler to help government achieve better performance. <small><%= link_to "Read More", blog_index_path %></small></p>
+        </li>
+        <li class="span3">
+          <h3 class="title"><a href="solutions"></i>University Management and Certificate Authentication Solutions</a></h3>
+          <p>We specialize in end to end University Management and Tamper Proof Certificate Solutions. For more details please visit our blog. <small><%= link_to "Read More", blog_index_path %></small></p>
+        </li>
+      </ul>
+    </div>
+
+
+  </div>
+</div>
+

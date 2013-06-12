@@ -1,0 +1,102 @@
+    <div id="highlighted">
+      <div class="container">
+        <div class="row-fluid header">
+          <h2 class="page-title"><span>Solutions</span></h2>
+	<%= link_to "Back to Solutions", {:controller => "solutions", :actions => "egov"}, :class => "btn btn-mini back-link" %> 
+        </div>
+      </div>
+    </div>
+        
+      
+    <div id="content">
+      <div class="container portfolio">        
+        
+        <!--Solution feature item-->
+        <div class="row">
+          <div class="span7 project-photos">
+            <!-- Slider for project pictures -->
+            <div id="carousel-project" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="item active">
+		<%= image_tag "public/egovernance/e-gov2800X600.png" %>		 
+                 
+                  <div class="carousel-caption">
+                    <p>Leveraging E-Governance through IT</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <%= image_tag "public/egovernance/e-gov1800X600.png" %>
+                  <div class="carousel-caption">
+                    <h4>e-Governance Solutions</h4>
+                    <p>End to End Solutions for eGovernance Projects</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <%= image_tag "public/egovernance/e-gov3800X600.png" %>
+                  <div class="carousel-caption">
+                    <p>System Integration Solutions for eGovernance Projects.</p>
+                  </div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#carousel-project" data-slide="prev">&lsaquo;</a>
+              <a class="right carousel-control" href="#carousel-project" data-slide="next">&rsaquo;</a>
+            </div>
+          </div> 
+          
+          <div class="span5 sidebar sidebar-right">
+            <!-- quick details -->
+            <div class="block">
+              <h3 class="block-title"><span>System Integration and solutioning for E-Governance Projects</span></h3>
+              <dl>
+                <dt>Project Type</dt>
+                <dd>E-Governance System Integration and Solutioning</dd>
+                <dt>Client</dt>
+                <dd>Government Bodies</dd>
+                <dt>Services Provided</dt>
+                <dd>System Integration, Hardware Procurement and Installation, Forest Fire Protection, Asset and People Tracking Solutions, Document Management and other IT related solutioning services.</dd>
+                <dt>Project Description</dt>
+                <dd>We, at IFace believe that e-governance is about understanding the government domain, bringing about a cultural change and using technology as an enabler to help government achieve better performance.</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row-fluid block">
+          <h3 class="block-title">Related Work</h3>
+          <!--Portfolio items-->
+          <ul class="thumbnails block projects">
+            
+      <li class="span3 ">
+        <a href="portfolio-project.htm"><img src="img/portfolio/enkel-home-blue.png" alt="Blue Theme" class="img-polaroid" /></a>
+        <h3 class="title"><a href="portfolio-project.htm">Blue Theme</a><small class="pull-right"></small></h3>
+        <p class="muted">Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna.</p>
+      </li>    
+    
+      <li class="span3 ">
+        <a href="portfolio-project.htm"><img src="img/portfolio/enkel-home-colours.png" alt="Colour Variations" class="img-polaroid" /></a>
+        <h3 class="title"><a href="portfolio-project.htm">Colour Variations</a><small class="pull-right"></small></h3>
+        <p class="muted">Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna.</p>
+      </li>    
+    
+      <li class="span3 ">
+        <a href="portfolio-project.htm"><img src="img/portfolio/enkel-services-green.png" alt="Services Green" class="img-polaroid" /></a>
+        <h3 class="title"><a href="portfolio-project.htm">Services Green</a><small class="pull-right"></small></h3>
+        <p class="muted">Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna.</p>
+      </li>    
+    
+      <li class="span3 ">
+        <a href="portfolio-project.htm"><img src="img/portfolio/enkel-project-grey.png" alt="Project Grey" class="img-polaroid" /></a>
+        <h3 class="title"><a href="portfolio-project.htm">Project Grey</a><small class="pull-right"></small></h3>
+        <p class="muted">Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna.</p>
+      </li>    
+              </ul>
+        </div>
+      </div>
+    </div>
+    
+
+      
+  
+    
+  </body>
+</html>

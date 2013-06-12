@@ -1,0 +1,77 @@
+
+    
+    <div id="highlighted">
+      <div class="container">
+        <div class="row-fluid header">
+	  <h2 class="page-title"><span>Blog</span> <small>Sometimes words do speak louder than actions</small></h2>
+	  <a href="http://themelize.me/demos/enkel/blog.htm" class="btn btn-mini back-link"><i class="icon-arrow-left"></i> Back to Blog</a>
+        </div>
+      </div>
+    </div> 
+      
+    <div id="content">
+      <div class="container">  
+        <div class="row">
+          
+	  <!--Blog Roll Content-->
+          <div class="span8 blog-post">
+	
+            <!--Main blog post-->
+            <div class="media">
+	      <img src="img/blog/fly.jpg" alt="Picture of frog by Ben Fredericson" class="media-object" />
+	      <small>Blog photos by <a href="http://www.flickr.com/photos/xjrlokix/">Ben Fredericson</a></small>
+              <div class="media-body">
+		<h3 class="title media-heading">Healthcare Asset Tracking and Management Solution</h3>
+		<!-- Meta details -->
+		<ul class="inline meta muted">
+		  <li><i class="icon-calendar"></i> <span class="visible-desktop">Created:</span> Sun 6th Jan 2013</li>
+		  <li><i class="icon-user"></i> <span class="visible-desktop">By</span> <a href="http://themelize.me/demos/enkel/team-member.htm">Nitin Agarwal</a></li>
+		</ul>		
+		<p class="lead">A big challenge for hospitals today is the management of mobile medical equipment. A mid-size hospital already has thousands of mobile devices.</p>
+		<p>Medical devices that are used for patient care in hospitals are subject to systematic preventive maintenance procedures enforced by the Joint Commission in the U.S., recommended by the WHO, and required by authorities in several other countries. The goal for the maintenance procedures is to reduce the risk of equipment malfunction that can lead to costly and life-threatening mistakes in patient care.</p>
+		<p>To cope with the maintenance requirement and to assure optimum availability, the biomedical department needs to have a system for finding its medical equipment for routine cleaning and re-calibration. </p>
+		<p class="lead">Wi-Fi healthcare asset tracking is the practical solution</p>
+		<p>A simple remedy to the problem is to have a system that knows the whereabouts of all equipment at all times and anywhere on the campus. The IFace RTLS (Real Time Location System) offers a simple to use, healthcare asset tracking solution for locating equipment using a Web browser, even when equipment is locked behind closed doors. Service requests, system alerts and various system triggers can all be sent to the Ekahau Wi-Fi Staff Badges. This way the engineering staff can be made fully aware of all system alerts and requests while they are working around the hospital.</p>
+		<p>IFace’s RTLS healthcare asset management system has been designed from the ground up to cater to the needs of hospitals. By leveraging an existing Wi-Fi infrastructure, the complete system can be up and running in a few weeks with no disruption to patient care or the facilities themselves. IFace’s proven technology and patented algorithms are the basis for consistently winning RTLS bake-offs around the world. Take a look at the overview of our wireless healthcare tracking solutions.</p>
+            </div>
+          
+           
+          
+          <!--Sidebar-->
+          <div class="span4 sidebar sidebar-right">
+            <div class="inner">         
+              <div class="block">
+                <h3 class="block-title sub-title"><span>Tags</span></h3>
+                <div class="tags">
+                                    <span><a href="#">culture</a>  (42)</span>, 
+                                    <span><a href="#">general</a>  (22)</span>, 
+                                    <span><a href="#">coding</a>  (80)</span>, 
+                                    <span><a href="#">design</a>  (93)</span>, 
+                                  </div>
+              </div>
+              <div class="block">
+                <h3 class="block-title sub-title"><span>Archive</span></h3>
+                <ul class="big-list">
+                                    <li><a href="#">December 2012</a>  (75)</li>
+                                    <li><a href="#">November 2012</a>  (89)</li>
+                                    <li><a href="#">October 2012</a>  (32)</li>
+                                    <li><a href="#">September 2012</a>  (20)</li>
+                                    <li><a href="#">August 2012</a>  (64)</li>
+                                    <li><a href="#">July 2012</a>  (16)</li>
+                                  </ul>
+              </div>
+              <div class="block">
+                <a href="#" class="btn btn-warning"><i class="icon-rss"></i> Subscribe via RSS feed</a>
+              </div>                
+            </div>
+          </div>
+              
+        </div>
+      </div>
+    </div>
+    
+   
+      
+   
+  </body>
+</html>

@@ -1,0 +1,73 @@
+    <div id="highlighted">
+      <div class="container">
+        <div class="row-fluid header">
+          <h2 class="page-title"><span>Solutions</span></h2>
+	<%= link_to "Back to Solutions", {:controller => "solutions", :actions => "egov"}, :class => "btn btn-mini back-link" %> 
+        </div>
+      </div>
+    </div>
+        
+      
+    <div id="content">
+      <div class="container portfolio">        
+        
+        <!--Solution feature item-->
+        <div class="row">
+          <div class="span7 project-photos">
+            <!-- Slider for project pictures -->
+            <div id="carousel-project" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="item active">
+		<%= image_tag "public/tracking/inventory_tracking800x600.png" %>		 
+                 
+                  <div class="carousel-caption">
+                    <p>Asset Tracking Solutions for efficient utilization of resources.</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <%= image_tag "public/tracking/people_tracking800x600.png" %>
+                  <div class="carousel-caption">
+                    <h4>People Tracking Solutions</h4>
+                    <p>Employee Tracking Solutions for Corporates and ManPower Dependent Businesses.</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <%= image_tag "public/tracking/inventory800x600.png" %>
+                  <div class="carousel-caption">
+                    <p>Inventory Management Solution that helps you track your Inventory on the go.</p>
+                  </div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#carousel-project" data-slide="prev">&lsaquo;</a>
+              <a class="right carousel-control" href="#carousel-project" data-slide="next">&rsaquo;</a>
+            </div>
+          </div> 
+          
+          <div class="span5 sidebar sidebar-right">
+            <!-- quick details -->
+            <div class="block">
+              <h3 class="block-title"><span>Tracking and Inventory Management Solutions</span></h3>
+              <dl>
+                <dt>Project Type</dt>
+                <dd>Asset Tracking and Inventory Management Solutions</dd>
+                <dt>Client</dt>
+                <dd>Corporates, ManPower Dependent Businesses, Manufacturing and Retail Industry</dd>
+                <dt>Services Provided</dt>
+                <dd>Asset Tracking and People Tracking Solutions for Hospitals, Corporates and Government Organizations, Inventory Management Solutions for SMEs and Retail Industry.</dd>
+                <dt>Project Description</dt>
+                <dd>With increasing competition and operational cost it has become very important for organizations to exploit their resources in the best possible way. Our asset tracking, employee tracking and inventory management technologies have a proven track record by enabling companies to maximize the utilization of their resources and decrease the operational cost,  hence we gurantee an increased RoI.</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+    
+
+      
+  
+    
+  </body>
+</html>

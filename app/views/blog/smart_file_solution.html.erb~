@@ -1,0 +1,77 @@
+     <div id="highlighted">
+      <div class="container">
+        <div class="row-fluid header">
+	  <h2 class="page-title"><span>Blog</span> <small>Sometimes words do speak louder than actions</small></h2>
+	 <%= link_to "Back to Blog", {:controller => "blog", :actions => "index"}, :class => "btn btn-mini back-link" %> 
+        </div>
+      </div>
+    </div> 
+      
+    <div id="content">
+      <div class="container">  
+        <div class="row">
+          
+	  <!--Blog Roll Content-->
+          <div class="span8 blog-post">
+	
+            <!--Main blog post-->
+            <div class="media">
+	      <%= image_tag "Blog/doc_management.jpg" %>
+              <div class="media-body">
+		<h3 class="title media-heading">Document Management Solutions</h3>
+		<!-- Meta details -->
+		<ul class="inline meta muted">
+		  <li><i class="icon-calendar"></i> <span class="visible-desktop">Created:</span> Sat 1st June 2013</li>
+		  <li><i class="icon-user"></i> <span class="visible-desktop">By</span> <a href="http://themelize.me/demos/enkel/team-member.htm">Nitin Agarwal</a></li>
+		</ul>		
+		<p class="lead">Document management is one of the oldest of the content management disciplines - and was essentially born out of the need to manage ever growing amounts of information being created within organisations.</p>
+		<p>IFace Global has designed a Smart File Solution that helps in managing physical documents efficiently with the help of Embedded and IT Technologies. We feel that this solution is a necessity for the hospitals and Government organizations where maintaining physical documents is a compulsion. The solution helps in finding the documents easily with least effort without interrupting the ongoing task. </p>
+		<p class="lead">Solution Scope</p>
+		<p>A sensor having the feature of an alarm and a unique code is attached to the file in which the documents are kept and the unique code is mapped with the Document Management Software. The file can be placed on the shelf with other documents. After a period of time if the user wants to access the file for some information then he can easily search for the file in the Document Management Software and trigger the alarm. The alarm will be triggered in the file placed on the shelf and the user can easily find the document in a fraction of seconds.</p> 
+		<p>The sensor will be in hibernate moe when not in use. This feature will also help to increase the life of the sensor and gurantee a long-lasting support for the solution.</p>
+            </div>
+          
+            </div>
+          
+	  
+          </div>
+          
+          <!--Sidebar-->
+          <div class="span4 sidebar sidebar-right">
+            <div class="inner">         
+              <div class="block">
+                <h3 class="block-title sub-title"><span>Tags</span></h3>
+                <div class="tags">
+                                    <span><a href="#">culture</a>  (42)</span>, 
+                                    <span><a href="#">general</a>  (22)</span>, 
+                                    <span><a href="#">coding</a>  (80)</span>, 
+                                    <span><a href="#">design</a>  (93)</span>, 
+                                  </div>
+              </div>
+              <div class="block">
+                <h3 class="block-title sub-title"><span>Archive</span></h3>
+                <ul class="big-list">
+                                    <li><a href="#">December 2012</a>  (75)</li>
+                                    <li><a href="#">November 2012</a>  (89)</li>
+                                    <li><a href="#">October 2012</a>  (32)</li>
+                                    <li><a href="#">September 2012</a>  (20)</li>
+                                    <li><a href="#">August 2012</a>  (64)</li>
+                                    <li><a href="#">July 2012</a>  (16)</li>
+                                  </ul>
+              </div>
+              <div class="block">
+                <a href="#" class="btn btn-warning"><i class="icon-rss"></i> Subscribe via RSS feed</a>
+              </div>                
+            </div>
+          </div>
+              
+        </div>
+      </div>
+    </div>
+    
+   
+      
+    
+   
+  </body>
+</html>

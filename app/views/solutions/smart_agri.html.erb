@@ -1,0 +1,73 @@
+    <div id="highlighted">
+      <div class="container">
+        <div class="row-fluid header">
+          <h2 class="page-title"><span>Solutions</span></h2>
+	<%= link_to "Back to Solutions", {:controller => "solutions", :actions => "egov"}, :class => "btn btn-mini back-link" %> 
+        </div>
+      </div>
+    </div>
+        
+      
+    <div id="content">
+      <div class="container portfolio">        
+        
+        <!--Solution feature item-->
+        <div class="row">
+          <div class="span7 project-photos">
+            <!-- Slider for project pictures -->
+            <div id="carousel-project" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="item active">
+		<%= image_tag "public/agri/smart_agri800X600.png" %>		 
+                 
+                  <div class="carousel-caption">
+                    <p>e-Governance Hierarchy</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <%= image_tag "public/agri/forest_fire800X600.png" %>
+                  <div class="carousel-caption">
+                    <h4>e-Governance Solutions</h4>
+                    <p>End to End Integration Solutions</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <%= image_tag "public/agri/animal_farming800X600.png" %>
+                  <div class="carousel-caption">
+                    <p>A little bit of green.</p>
+                  </div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#carousel-project" data-slide="prev">&lsaquo;</a>
+              <a class="right carousel-control" href="#carousel-project" data-slide="next">&rsaquo;</a>
+            </div>
+          </div> 
+          
+          <div class="span5 sidebar sidebar-right">
+            <!-- quick details -->
+            <div class="block">
+              <h3 class="block-title"><span>System Integration for eGovernance Projects</span></h3>
+              <dl>
+                <dt>Project Type</dt>
+                <dd>Smart Agriculture, Smart Animal Farm Automation and Forest Fire Solutions</dd>
+                <dt>Client</dt>
+                <dd>Large Agriculture Farms, Ministry of Environment and Forest(Government of India) and Large Animal Farms </dd>
+                <dt>Services Provided</dt>
+                <dd>The world’s population will increase 47%, to 8.9 billion, by 2050 and global agriculture production must double to sustain growth. IFace specializes in delivering solutions that helps you monitor your agricultue produce by supplying balanced amount of nutrients and water over a period of time as needed by the crop. This helps to increase the quantity as well as the quality of the crop and that leads to an increased RoI.</dd>
+                <dt>Project Description</dt>
+                <dd>Wireless Sensor Networks (WSNs) can be used to monitor different environmental parameters related to agriculture such as temperature, humidity, soil temperature/humidity, weather station, leaf wetness and many other parameters. The monitoring of these parameters allows to minimize time and money as well as maximize agriculture results.</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        
+    
+      </div>
+    </div>
+    
+
+      
+  
+    
+  </body>
+</html>
