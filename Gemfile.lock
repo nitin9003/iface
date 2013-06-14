@@ -57,6 +57,8 @@ GEM
     less-rails (2.3.3)
       actionpack (>= 3.1)
       less (~> 2.3.1)
+    less-rails-bootstrap (2.3.3)
+      less-rails (~> 2.3.1)
     libv8 (3.11.8.17)
     mail (2.4.4)
       i18n (>= 0.4.0)
@@ -129,7 +131,7 @@ DEPENDENCIES
   client_side_validations-simple_form
   coffee-rails (~> 3.2.1)
   jquery-rails
-  less-rails
+  less-rails-bootstrap
   mysql2
   rails (= 3.2.7)
   sass-rails (~> 3.2.3)

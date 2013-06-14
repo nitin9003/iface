@@ -20,7 +20,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 gem 'therubyracer', :platform => :ruby
-gem 'less-rails'
+gem 'less-rails-bootstrap'
 gem 'jquery-rails'
 gem 'twitter-bootstrap-rails'
 gem 'simple_form'
