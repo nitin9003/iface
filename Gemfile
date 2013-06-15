@@ -6,6 +6,7 @@ gem 'rails', '3.2.7'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2'
+gem 'pg'
 
 
 # Gems used only for assets and not required
@@ -19,6 +20,7 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
+
 gem 'therubyracer', :platform => :ruby
 gem 'less-rails-bootstrap'
 gem 'jquery-rails'
@@ -34,7 +36,7 @@ gem 'client_side_validations-simple_form'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+ gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'

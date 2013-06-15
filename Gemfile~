@@ -19,8 +19,9 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
+
 gem 'therubyracer', :platform => :ruby
-gem 'less-rails'
+gem 'less-rails-bootstrap'
 gem 'jquery-rails'
 gem 'twitter-bootstrap-rails'
 gem 'simple_form'
@@ -34,7 +35,7 @@ gem 'client_side_validations-simple_form'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+ gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'

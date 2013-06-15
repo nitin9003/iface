@@ -100,7 +100,7 @@
               <!-- Meta details -->
               <ul class="inline meta">
                 <li><i class="icon-calendar"></i> <span class="visible-desktop">Created:</span> Sat 12th Jan 2013</li>
-                <li><i class="icon-user"></i> <span class="visible-desktop">By</span> <a href="http://themelize.me/demos/enkel/team-member.htm">Nitin Agarwak</a></li>
+                <li><i class="icon-user"></i> <span class="visible-desktop">By</span> <a href="#">Nitin Agarwak</a></li>
               </ul>
 	<h5><%= link_to "Healthcare Asset Tracking and Management Solution", hospital_asset_tracking_solution_blog_index_path, {:class => "title media-heading"} %></h5>
             </div>
@@ -112,7 +112,7 @@
               <!-- Meta details -->
               <ul class="inline meta">
                 <li><i class="icon-calendar"></i> <span class="visible-desktop">Created:</span> Sat 1st June 2013</li>
-                <li><i class="icon-user"></i> <span class="visible-desktop">By</span> <a href="http://themelize.me/demos/enkel/team-member.htm">Nitin Agarwal</a></li>
+                <li><i class="icon-user"></i> <span class="visible-desktop">By</span> <a href="">Nitin Agarwal</a></li>
               </ul>
               <h5><%= link_to "Smart File Solution", smart_file_solution_blog_index_path, {:class => "title media-heading"} %></h5>
             </div>
@@ -123,8 +123,8 @@
           <h3>Contact Us!</h3>
           <address>
           <p><strong>IFaceGlobal.com</strong></p>
-          <p><abbr title="Phone">P</abbr>: +91 9999955555</p>
-          <p><abbr title="Fax">F</abbr>: +91 9999955555</p>
+          <p><abbr title="Phone">P</abbr>: +91 9919189444</p>
+          <p><abbr title="Fax">F</abbr>: +91 9919189444</p>
           <p><abbr title="Email">E</abbr>: info@ifaceglobal.com</p>
           <p><abbr title="Address">A</abbr>: 38, North American Road, NewYork City, 12345.</p>
           </address>
@@ -132,7 +132,7 @@
         <div class="span2 col social-media"> 
           <!--@todo: replace with company social media details-->
           <h3>Follow us on</h3>
-          <a href="#"><i class="icon-twitter"></i> Twitter</a> <a href="www.facebook.com/ifaceglobal" target="_blank"><i class="icon-facebook"></i> facebook</a> <a href="#"><i class="icon-linkedin"></i> LinkedIn</a> <a href="#"><i class="icon-google-plus"></i> Google +</a> </div>
+          <a href="https://twitter.com/IFaceGlobal" target="_blank"><i class="icon-twitter"></i> Twitter</a> <a href="http://www.facebook.com/ifaceglobal" target="_blank"><i class="icon-facebook"></i> facebook</a> <a href="http://www.linkedin.com/company/iface-global-solutions-private-linited?trk=top_nav_home" target="_blank"><i class="icon-linkedin"></i> LinkedIn</a> <a href="#"><i class="icon-google-plus"></i> Google +</a> </div>
       </div>
       <div class="row"> 
         <!--@todo: replace with company copyright details-->

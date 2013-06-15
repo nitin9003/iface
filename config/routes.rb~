@@ -12,6 +12,8 @@ resources :solutions do
 	end
 end
 resources :products
+	
+end
 
 resources :about
 
