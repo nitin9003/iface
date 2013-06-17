@@ -426,3 +426,7 @@ Compiled solutions/theme-style.css  (0ms)  (pid 11362)
 Compiled twitter/bootstrap.css  (419ms)  (pid 11362)
 Compiled twitter/bootstrap-responsive.css  (117ms)  (pid 11362)
 Compiled application.css  (1777ms)  (pid 11362)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Migrating to CreateSolutions (20130523181845)
+Migrating to CreateContacts (20130607121255)
