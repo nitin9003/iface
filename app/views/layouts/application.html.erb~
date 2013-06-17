@@ -15,49 +15,31 @@
 <%= csrf_meta_tags %>
 
 <!-- Bootstrap CSS -->
-<%= stylesheet_link_tag "index/bootstrap.css" %>
-<%= stylesheet_link_tag "index/responsive.css" %>
+<%= stylesheet_link_tag "bootstrap.css" %>
+<%= stylesheet_link_tag "responsive.css" %>
 <!-- Bootstrap CSS -->
 
 <!-- animate.css CSS -->
-<%= stylesheet_link_tag "index/animate.css" %>
+<%= stylesheet_link_tag "animate.css" %>
 <!-- animate.css CSS -->
 
 <!-- Flexslider -->
-<%= stylesheet_link_tag "index/flexslider.css" %>
+<%= stylesheet_link_tag "flexslider.css" %>
 <!-- Flexslider -->
 
 <!-- Theme style -->
-<%= stylesheet_link_tag "index/theme-style.css" %>
+<%= stylesheet_link_tag "theme-style.css" %>
 <!-- Theme style -->
 
-<%= stylesheet_link_tag "index/colour-blue.css", :id => "colour-scheme" %>
+<%= stylesheet_link_tag "colour-green.css", :id => "colour-scheme" %>
 
 
 <!-- Your custom override -->
-<%= stylesheet_link_tag "index/custom-style.css" %>
+<%= stylesheet_link_tag "custom-style.css" %>
 <!-- Your custom override -->
 
     
-    <!-- For third-generation iPad with high-resolution Retina display: -->
-    <!-- Size should be 144 x 144 pixels -->
-    <%= favicon_link_tag 'images/apple-touch-icon-144x144-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '144x144' %>
-
-    <!-- For iPhone with high-resolution Retina display: -->
-    <!-- Size should be 114 x 114 pixels -->
-    <%= favicon_link_tag 'images/apple-touch-icon-114x114-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '114x114' %>
-
-    <!-- For first- and second-generation iPad: -->
-    <!-- Size should be 72 x 72 pixels -->
-    <%= favicon_link_tag 'images/apple-touch-icon-72x72-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '72x72' %>
-
-    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-    <!-- Size should be 57 x 57 pixels -->
-    <%= favicon_link_tag 'images/apple-touch-icon-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png' %>
-
-    <!-- For all other devices -->
-    <!-- Size should be 32 x 32 pixels -->
-    <%= favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
+ 
 </head>
 
 
@@ -132,7 +114,7 @@
         <div class="span2 col social-media"> 
           <!--@todo: replace with company social media details-->
           <h3>Follow us on</h3>
-          <a href="https://twitter.com/IFaceGlobal" target="_blank"><i class="icon-twitter"></i> Twitter</a> <a href="http://www.facebook.com/ifaceglobal" target="_blank"><i class="icon-facebook"></i> facebook</a> <a href="http://www.linkedin.com/company/iface-global-solutions-private-linited?trk=top_nav_home" target="_blank"><i class="icon-linkedin"></i> LinkedIn</a> <a href="#"><i class="icon-google-plus"></i> Google +</a> </div>
+          <a href="https://twitter.com/IFaceGlobal" target="_blank"><i class="icon-twitter"></i> Twitter</a> <a href="http://www.facebook.com/ifaceglobal" target="_blank"><i class="icon-facebook"></i> facebook</a> <a href="http://www.linkedin.com/company/iface-global-solutions-private-linited?trk=top_nav_home" target="_blank"><i class="icon-linkedin"></i> LinkedIn</a> </div>
       </div>
       <div class="row"> 
         <!--@todo: replace with company copyright details-->
@@ -147,31 +129,31 @@
 </footer>
 
 <!--Scripts -->
-<%= javascript_include_tag "index/jquery.js" %>
+<%= javascript_include_tag "jquery.js" %>
 
 <!-- @todo: remove unused Javascript for better performance --> 
-<%= javascript_include_tag "index/bootstrap-transition.js" %>
-<%= javascript_include_tag "index/bootstrap-affix.js" %>
-<%= javascript_include_tag "index/bootstrap-alert.js" %>
-<%= javascript_include_tag "index/bootstrap-modal.js" %>
-<%= javascript_include_tag "index/bootstrap-dropdown.js" %>
-<%= javascript_include_tag "index/bootstrap-scrollspy.js" %>
-<%= javascript_include_tag "index/bootstrap-tab.js" %>
-<%= javascript_include_tag "index/bootstrap-tooltip.js" %>
-<%= javascript_include_tag "index/bootstrap-popover.js" %>
-<%= javascript_include_tag "index/bootstrap-button.js" %>
-<%= javascript_include_tag "index/bootstrap-collapse.js" %>
-<%= javascript_include_tag "index/bootstrap-carousel.js" %>
-<%= javascript_include_tag "index/bootstrap-typeahead.js" %>
+<%= javascript_include_tag "bootstrap-transition.js" %>
+<%= javascript_include_tag "bootstrap-affix.js" %>
+<%= javascript_include_tag "bootstrap-alert.js" %>
+<%= javascript_include_tag "bootstrap-modal.js" %>
+<%= javascript_include_tag "bootstrap-dropdown.js" %>
+<%= javascript_include_tag "bootstrap-scrollspy.js" %>
+<%= javascript_include_tag "bootstrap-tab.js" %>
+<%= javascript_include_tag "bootstrap-tooltip.js" %>
+<%= javascript_include_tag "bootstrap-popover.js" %>
+<%= javascript_include_tag "bootstrap-button.js" %>
+<%= javascript_include_tag "bootstrap-collapse.js" %>
+<%= javascript_include_tag "bootstrap-carousel.js" %>
+<%= javascript_include_tag "bootstrap-typeahead.js" %>
 
 
 <!--Non-Bootstrap JS--> 
-<%= javascript_include_tag "index/jquery.quicksand.js" %>
-<%= javascript_include_tag "index/jquery.flexslider-min.js" %>
+<%= javascript_include_tag "jquery.quicksand.js" %>
+<%= javascript_include_tag "jquery.flexslider-min.js" %>
 
 
 <!--Custom scripts mainly used to trigger libraries --> 
-<%= javascript_include_tag "index/script.js" %>
+<%= javascript_include_tag "script.js" %>
 </body>
 
 </body>
