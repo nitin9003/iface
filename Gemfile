@@ -21,8 +21,9 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'therubyracer', :platform => :ruby
-#gem 'less-rails-bootstrap'
+gem 'therubyracer'
+
+gem 'less-rails'
 gem 'jquery-rails'
 gem 'twitter-bootstrap-rails'
 gem 'simple_form'

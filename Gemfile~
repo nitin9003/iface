@@ -22,9 +22,9 @@ group :assets do
 end
 
 gem 'therubyracer', :platform => :ruby
-gem 'less-rails-bootstrap'
+#gem 'less-rails-bootstrap'
 gem 'jquery-rails'
-#gem 'twitter-bootstrap-rails'
+gem 'twitter-bootstrap-rails'
 gem 'simple_form'
 gem 'client_side_validations'
 gem 'client_side_validations-simple_form'
