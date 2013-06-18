@@ -54,7 +54,7 @@ a:focus {
   outline: none;
 }
 .inner {
-  background: url(<%= asset_path '/images/bg_noise-5.png' %>) left top repeat;
+  background: url(image_path('bg_noise-5.png')) left top repeat;
 }
 /* --------------------------------------------------
  * Zones & Regions
@@ -223,7 +223,7 @@ a:focus {
   -o-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
   border-bottom: 1px solid #e1e1e1;
-  background: #f2f2f2 url(../img/bg_noise-5.png) left top repeat;
+  background: #f2f2f2 image-url('bg_noise-5.png') left top repeat;
   color: #377ca8;
   text-shadow: 1px 1px 1px #ffffff;
 }
