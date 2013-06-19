@@ -1,6 +1,6 @@
 Iface::Application.routes.draw do
 
-
+root :to => "public#index"
 resources :public
  
 resources :solutions do
