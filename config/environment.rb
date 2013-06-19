@@ -3,4 +3,4 @@ require File.expand_path('../application', __FILE__)
 
 # Initialize the rails application
 Iface::Application.initialize!
-RAILS_ENV=production
+#RAILS_ENV=production
