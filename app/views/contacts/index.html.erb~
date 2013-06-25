@@ -14,7 +14,7 @@
         <div class="row block">
           <div class="span6">
 
-	<%= form_for(@contact), :validate => true do |f| %>
+	<%= form_for @contact, :validate => true do |f| %>
 		<%= render "shared/error_messages", :target => @contact %> 
 	
 	
@@ -39,7 +39,9 @@
             <p><abbr title="Phone">P</abbr>: +91 9919189444</p>
             <p><abbr title="Fax">F</abbr>: +91 9919189444</p>
             <p><abbr title="Email">E</abbr>: info@ifaceglobal.com</p>
-            <p><abbr title="Address">A</abbr>: Sunshine House, Sunny Road, Sunville. SUN12 8LU.</p>
+            <p><abbr title="Address">A</abbr>: IFaceGlobal Solutions Pvt. Ltd., C/o 91SpringBoard, B1/H3, Lower Ground Floor,
+Mohan Cooperative Industrial Estate,
+Mathura Road, New Delhi-110044.</p>
             <a href="https://maps.google.co.uk/maps?q=London&ie=UTF8&hq=&hnear=London%2C+United+Kingdom&gl=uk&t=m&ll=51.510238%2C-0.127029&spn=0.042735%2C0.102654&z=12&">
               <%= image_tag "contacts/map.png", :class => "img-polaroid" %>
             </a>
