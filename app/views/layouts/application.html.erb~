@@ -10,17 +10,17 @@
 <meta name="description" content="">
 <meta name="author" content="ifaceglobal.com">
 
-<%= stylesheet_link_tag    "application", :media => "all" %>
-<%= javascript_include_tag "application" %>
+<%= stylesheet_link_tag   "application", :media => "all" %>
+<%#= javascript_include_tag "application" %>
 <%= csrf_meta_tags %>
 
 <!-- Bootstrap CSS -->
-<%= stylesheet_link_tag "stylesheets/bootstrap.css" %>
-<%= stylesheet_link_tag "stylesheets/responsive.css" %>
+<%= stylesheet_link_tag "bootstrap.css" %>
+<%= stylesheet_link_tag "responsive.css" %>
 <!-- Bootstrap CSS -->
 
 <!-- animate.css CSS -->
-<%= stylesheet_link_tag "stylesheets/animate.css" %>
+<%= stylesheet_link_tag "animate.css" %>
 <!-- animate.css CSS -->
 
 <!-- Flexslider -->
